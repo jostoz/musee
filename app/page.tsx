@@ -163,95 +163,106 @@ export default function Home() {
 			</TOC.Root>
 
 			<BottomAlignedSection
-				title="Museum of Ancient Art"
+				title="Ferunda: Master of Microrealism"
 				TitleTag="h1"
 				ref={sectionRefs.current[0]}
 				onScrollProgress={makeOnScrollProgress(0)}
 			>
-				History and creativity converge to tell the captivating stories of civilizations long past.
-				Our collection, ranging from majestic sculptures to intricate pottery, offers a glimpse into
-				the artistic achievements and cultural expressions of ancient societies.
+				Ferunda, a tattoo artist from Mexico, has revolutionized the art of microrealism. With
+				exceptional skill and precision, Ferunda creates intricate, life-like tattoos on a miniature
+				scale, pushing the boundaries of what's possible in tattoo artistry.
 			</BottomAlignedSection>
 			<LeftAlignedSection
-				id="alexandros-of-antioch"
+				id="ferunda-expertise"
 				ref={sectionRefs.current[1]}
 				onScrollProgress={makeOnScrollProgress(1)}
 				items={[
 					{
-						title: 'Alexandros of Antioch',
+						title: 'Microrealism Mastery',
 						content: (
 							<>
-								Alexandros of Antioch was an ancient Greek sculptor best known for creating the
-								famous statue &quot;Venus de Milo,&quot; discovered on the island of Milos in 1820.
+								Ferunda has gained recognition for expertise in the highly specialized field of
+								microrealism, showcasing a remarkable ability to capture life-like images on a
+								miniature scale.
 							</>
 						)
 					},
 					{
-						title: '203 cm (80 in)',
+						title: 'Cultural Influence',
 						content: (
 							<>
-								The height of the statue is notable for its impressive scale, reflecting the
-								grandeur and idealized proportions characteristic of Hellenistic sculpture.
+								Ferunda's roots in Mexico have deeply influenced the thematic elements found in the work,
+								infusing each piece with cultural richness and emotional depth. Despite the small canvas size,
+								each tattoo tells a story, making the art not just visually striking but also emotionally resonant.
 							</>
 						)
 					},
 					{
-						title: 'Island of Melos',
+						title: 'Pushing Boundaries',
 						content: (
 							<>
-								The Venus de Milo was discovered in 1820 by a Greek farmer named Yorgos Kentrotas on
-								the island of Milos, and it quickly became one of the most celebrated examples of
-								ancient Greek sculpture.
+								Having honed this specialized skill, Ferunda has become a sought-after artist in the field of microrealism.
+								The work continually pushes the boundaries of what is possible in tattoo artistry, offering clients the chance
+								to wear tiny masterpieces that defy the limitations of size and scale.
 							</>
 						)
 					}
 				]}
 			/>
 			<BottomAlignedSection2
-				title="Discovery of a mutilated masterpiece"
-				id="discovery-of-a-mutilated-masterpiece"
+				title="Fernando Unda: Master of Microrealism"
+				id="fernando-unda-master-of-microrealism"
 				ref={sectionRefs.current[2]}
 				onScrollProgress={makeOnScrollProgress(2)}
 				content1={
 					<>
-						A farmer named Yorgos Kentrotas found the statue while digging in his field on the Greek
-						island of Milos. He uncovered the statue in several pieces within a buried niche in the
-						ancient city ruins.
+						Fernando Unda, known professionally as Ferunda, is a tattoo artist originally from Mexico who has gained recognition for his expertise in the highly specialized field of microrealism. With a focus on intricate detail and exceptional finesse, Ferunda's work showcases a remarkable ability to capture life-like images on a miniature scale.
 					</>
 				}
 				content2={
 					<>
-						Olivier Voutier, a French sailor with an interest in archaeology, observed the discovery
-						and encouraged Yorgos to keep digging.
+						Operating within the constraints of small spaces, Ferunda's tattoos captivate through their subtlety and precision. Whether it's the delicate shading of a pet's fur or the complex textures of a miniature landscape, the artist's skill in capturing the nuances of realism in such confined dimensions is unparalleled.
 					</>
 				}
 			/>
 			<LeftAlignedSection
-				id="missing-arms-mystery"
+				id="ferunda-microrealism-expertise"
 				ref={sectionRefs.current[3]}
 				onScrollProgress={makeOnScrollProgress(3)}
 				items={[
 					{
-						title: 'Missing arms mystery',
+						title: 'Microrealism Mastery',
 						content: (
 							<>
-								One of the most intriguing aspects of the Venus de Milo is its missing arms. When
-								the statue was found, it was already without its arms, which has led to much
-								speculation. It is believed that the arms were broken off either during its
-								discovery or in the centuries it lay buried.
+								Ferunda has gained recognition for expertise in the highly specialized field of
+								microrealism, showcasing a remarkable ability to capture life-like images on a
+								miniature scale. Operating within the constraints of small spaces, Ferunda's tattoos
+								captivate through their subtlety and precision.
 							</>
 						)
 					},
 					{
-						title: 'Controversial identification',
+						title: 'Cultural Influence',
 						content: (
 							<>
-								While widely accepted as a depiction of Aphrodite, the identification of the Venus
-								de Milo has been a subject of debate. Some scholars have suggested alternative
-								identifications, such as the sea goddess Amphitrite, who was also venerated on the
-								island of Milos.
+								Ferunda's roots in Mexico have deeply influenced the thematic elements found in the work,
+								infusing each piece with cultural richness and emotional depth. Despite the small canvas size,
+								each tattoo tells a story, making the art not just visually striking but also emotionally resonant.
 							</>
 						)
+					},
+					{
+						title: 'Pushing Boundaries',
+						content: (
+							<>
+								Having honed this specialized skill, Ferunda has become a sought-after artist in the field of microrealism.
+								The work continually pushes the boundaries of what is possible in tattoo artistry, offering clients the chance
+								to wear tiny masterpieces that defy the limitations of size and scale.
+							</>
+						)
+					}
+				]}
+			/>
 					}
 				]}
 			/>
@@ -261,9 +272,12 @@ export default function Home() {
 				ref={sectionRefs.current[4]}
 				onScrollProgress={makeOnScrollProgress(4)}
 			>
-				Renowned for its classical beauty and the mystery of its missing arms, the Venus de Milo
-				captivates millions of admirers each year. This iconic sculpture has become a centerpiece of
-				the Louvre Museum, symbolizing the artistic brilliance of ancient Greece.
+				Ferunda, a tattoo artist originally from Mexico, has gained recognition for expertise in the
+				highly specialized field of microrealism. With a focus on intricate detail and exceptional
+				finesse, Ferunda's work showcases a remarkable ability to capture life-like images on a
+				miniature scale. Operating within the constraints of small spaces, these tattoos captivate
+				through their subtlety and precision, offering clients the chance to wear tiny masterpieces
+				that defy the limitations of size and scale.
 			</BottomAlignedSectionWithIntro>
 		</>
 	)
