@@ -139,7 +139,7 @@ export default function Home() {
 				</motion.div>
 			</Suspense>
 			<TOC.Root className="max-guides-4:hidden">
-				<TOC.Item title="Museum of Ancient Art" href="#" sectionRef={sectionRefs.current[0]} />
+				<TOC.Item title="Museeum of Ancient Art" href="#" sectionRef={sectionRefs.current[0]} />
 				<TOC.Item
 					title="Alexandros of Antioch"
 					href="#alexandros-of-antioch"
